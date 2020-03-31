@@ -20,20 +20,22 @@
     var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Gemini","version":"7.7.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"livere","storage":true,"lazyload":false,"nav":null,"activeClass":"livere"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="java、php、vue技术总结。">
+  <meta name="description" content="说明：本教程所使用编辑器为PHPstorm 一、下载xdebug说明：如果使用的是phpstudy可以在PHP扩展及设置中选中xdebug，然后直接进行php.ini的配置即可 xdebug官网：https:&#x2F;&#x2F;xdebug.org&#x2F;download.php 在选择下载哪个版本的xdebug的时候需要注意了，下面有两种方法，让你准确的下载自己环境对应的xdebug文件： 1&gt;.打印出phpi">
 <meta property="og:type" content="website">
-<meta property="og:title" content="shanesyk&#39;s blog">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+<meta property="og:title" content="php使用xdebug进行调试">
+<meta property="og:url" content="http://yoursite.com/php%E4%BD%BF%E7%94%A8xdebug%E8%BF%9B%E8%A1%8C%E8%B0%83%E8%AF%95/index.html">
 <meta property="og:site_name" content="shanesyk&#39;s blog">
-<meta property="og:description" content="java、php、vue技术总结。">
+<meta property="og:description" content="说明：本教程所使用编辑器为PHPstorm 一、下载xdebug说明：如果使用的是phpstudy可以在PHP扩展及设置中选中xdebug，然后直接进行php.ini的配置即可 xdebug官网：https:&#x2F;&#x2F;xdebug.org&#x2F;download.php 在选择下载哪个版本的xdebug的时候需要注意了，下面有两种方法，让你准确的下载自己环境对应的xdebug文件： 1&gt;.打印出phpi">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-03-31T02:21:47.000Z">
+<meta property="article:modified_time" content="2020-03-31T02:50:45.254Z">
 <meta property="article:author" content="shanesyk">
 <meta property="article:tag" content="java">
 <meta property="article:tag" content="php">
 <meta property="article:tag" content="vue">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://yoursite.com/archives/">
+<link rel="canonical" href="http://yoursite.com/php%E4%BD%BF%E7%94%A8xdebug%E8%BF%9B%E8%A1%8C%E8%B0%83%E8%AF%95/">
 
 
 <script id="page-configurations">
@@ -46,7 +48,8 @@
   };
 </script>
 
-  <title>归档 | shanesyk's blog</title>
+  <title>php使用xdebug进行调试 | shanesyk's blog
+</title>
   
 
 
@@ -186,77 +189,61 @@
       <div class="main-inner">
         <div class="content-wrap">
           
+  
+  
 
-          <div class="content archive">
+          <div class="content page">
             
 
+  <div class="posts-expand">
+    
+    
+    
+    <div class="post-block" lang="zh-CN">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">php使用xdebug进行调试
+</h1>
+
+<div class="post-meta">
   
-  
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 2 篇日志。 继续努力。</span>
-      </div>
+
+</div>
+
+</header>
 
       
-    <div class="collection-year">
-      <span class="collection-header">2020</span>
+      
+      
+      <div class="post-body">
+          <p><strong>说明：本教程所使用编辑器为PHPstorm</strong></p>
+<h3 id="一、下载xdebug"><a href="#一、下载xdebug" class="headerlink" title="一、下载xdebug"></a>一、下载xdebug</h3><p><strong>说明：如果使用的是phpstudy可以在PHP扩展及设置中选中xdebug，然后直接进行php.ini的配置即可</strong></p>
+<p>xdebug官网：<a href="https://xdebug.org/download.php" target="_blank" rel="noopener">https://xdebug.org/download.php</a></p>
+<p>在选择下载哪个版本的xdebug的时候需要注意了，下面有两种方法，让你准确的下载自己环境对应的xdebug文件：</p>
+<p>1&gt;.打印出phpinfo()信息，如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% img [class names] &#x2F;img1 [50] [80] &#39;&quot;title text&quot; &quot;alt text&quot;&#39; %&#125;</span><br></pre></td></tr></table></figure>
+
+
+      </div>
+      
+      
+      
     </div>
+    
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-03-31T10:58:14+08:00"
-              content="2020-03-31">
-          03-31
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/03/31/PHP%E4%BD%BF%E7%94%A8xdebug%E8%BF%9B%E8%A1%8C%E8%B0%83%E8%AF%95/" itemprop="url">
-            <span itemprop="name">PHP使用xdebug进行调试</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-03-30T11:17:49+08:00"
-              content="2020-03-30">
-          03-30
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/03/30/hello-world/" itemprop="url">
-            <span itemprop="name">Hello World</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-
-    </div>
+    
+    
+    
   </div>
-  
-  
-  
-
-  
-
 
 
           </div>
           
+    
+  <div class="comments">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC80OTM3OC8yNTg3MA=="></div>
+  </div>
+  
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -303,6 +290,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、下载xdebug"><span class="nav-number">1.</span> <span class="nav-text">一、下载xdebug</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -427,6 +415,21 @@
 
   
 
+<script>
+NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+});
+</script>
 
 </body>
 </html>
