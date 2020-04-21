@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>测试分支</title>
+    <url>/2020/04/22/%E6%B5%8B%E8%AF%95%E5%88%86%E6%94%AF/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>PHP使用xdebug进行调试</title>
     <url>/2020/03/31/PHP%E4%BD%BF%E7%94%A8xdebug%E8%BF%9B%E8%A1%8C%E8%B0%83%E8%AF%95/</url>
     <content><![CDATA[<p>​        在使用PHP进行编码时，对PHP代码的调试一般都是在代码中输出需要观察的变量来进行，这样很不方便。通过使用xdebug可以像调试java代码那样打断点进行调试，更加合理和方便。</p>
